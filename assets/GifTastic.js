@@ -15,7 +15,7 @@ $(document).ready(function() {
       .then(function(response) {
 
         if (response.pagination.total_count == 0) {
-          alert('Sorry, there are no Gifs for this topic');
+          alert('Wow, This SUCKS! We Did Not Find Any GIFs');
           var itemindex = topics.indexOf(topic);
           if (itemindex > -1) {
             topics.splice(itemindex, 1);

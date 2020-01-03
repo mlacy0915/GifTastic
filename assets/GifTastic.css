@@ -1,0 +1,20 @@
+html, body {
+    background-color: black;
+}
+.jumbotron {
+    background-image: url("./images/giphy.gif");
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    color: aliceblue;
+}
+
+.card{
+    background-image: url(./images/staic.gif);
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+
+.btn-info{
+    background-color: black;
+}
